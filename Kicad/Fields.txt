@@ -1,0 +1,6 @@
+Manufacturer
+Manufacturer Part Number
+
+Voltage
+Tolerance
+Power Rating
