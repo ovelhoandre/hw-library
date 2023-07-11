@@ -2,5 +2,7 @@ Manufacturer
 Manufacturer Part Number
 
 Voltage
+Current
+Break Down Voltage
 Tolerance
 Power Rating
