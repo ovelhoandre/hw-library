@@ -129,7 +129,7 @@
   (pad "39" smd rect (at 0.845 -0.91) (size 1.05 1.05) (layers "F.Cu" "F.Paste") (tstamp 76a87642-211c-44f2-a488-190d6dc3728e))
   (pad "39" thru_hole circle (at 0.845 -0.1475) (size 0.6 0.6) (drill 0.3) (property pad_prop_heatsink) (layers "*.Cu" "F.Mask") (tstamp f5e6aae7-2c13-4be8-97dd-4e90c01e0ed8))
   (pad "39" smd rect (at 0.845 0.615) (size 1.05 1.05) (layers "F.Cu" "F.Paste") (tstamp 45676199-bb82-4d58-98c1-b606deb355be))
-  (zone (net 0) (net_name "") (layers "F.Cu" "In1.Cu" "B.Cu") (tstamp 96470e2c-ac29-43cf-8a19-003b057a469b) (hatch full 0.508)
+  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 96470e2c-ac29-43cf-8a19-003b057a469b) (hatch none 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
