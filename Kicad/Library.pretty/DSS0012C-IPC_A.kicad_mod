@@ -14,15 +14,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c0328440-42e6-4e59-ab10-ec84803ed74d)
   )
-  (fp_poly
-    (pts
-      (xy -0.275001 1.1)
-      (xy 0.275001 1.1)
-      (xy 0.275001 -1.1)
-      (xy -0.275001 -1.1)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 06a2071b-112b-40b1-94cb-5fd5bb8c831c))
   (fp_line (start -1.05 -1.799999) (end 1.05 -1.799999)
     (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 14429d9f-a493-4612-9b1b-5d50d9266f1c))
   (fp_line (start -1.05 1.799999) (end 1.05 1.799999)
@@ -49,7 +40,7 @@
   (pad "10" smd rect (at 1.025533 -0.25) (size 0.861068 0.242473) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b42e7f5-5943-4e57-a305-443662a242fb))
   (pad "11" smd rect (at 1.025533 -0.750001) (size 0.861068 0.242473) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6b043d4-34f5-4705-becf-e5b3f82bdff3))
   (pad "12" smd rect (at 1.025533 -1.25) (size 0.861068 0.242473) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6c275fa-6bcc-43c0-8af1-9e584af0a097))
-  (pad "13" smd rect (at 0 0) (size 1.1 2.75) (layers "F.Cu" "F.Mask") (tstamp eef610d4-92c9-4092-9ee6-26edd4164d8b))
+  (pad "13" smd rect (at 0 0) (size 0.7 2.75) (layers "F.Cu" "F.Mask") (tstamp eef610d4-92c9-4092-9ee6-26edd4164d8b))
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/DSS0012C.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

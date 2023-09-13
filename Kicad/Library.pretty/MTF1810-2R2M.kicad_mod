@@ -29,4 +29,9 @@
     (thermal_bridge_angle 45) (tstamp a0bc5632-bb02-47c9-b4c2-3cd57d605dbe))
   (pad "2" smd rect (at 0 6.65) (size 6 6) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 09af8044-c2d3-454c-b6dd-3fd2d16fb6ed))
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/MTF1810-2R2M.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
