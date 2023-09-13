@@ -58,7 +58,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/MOLEX-09-65-2028.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/MOLEX-09-65-2028.step"
     (offset (xyz 2 -4.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

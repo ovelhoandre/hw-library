@@ -47,7 +47,7 @@
   (pad "4" smd rect (at 4.125 2.54 90) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d82eab7-8e1c-4253-84b4-e85e5fa7ca69))
   (pad "5" smd rect (at 4.125 0 90) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 97b79880-0381-4d37-bba8-cc29e4a45083))
   (pad "6" smd rect (at 4.125 -2.54 90) (size 1.78 1.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 73ffd3b2-d88d-4642-8fb4-a3f3989ba5e6))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/OPTOCOUPLER_H11F3SR2M.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/OPTOCOUPLER_H11F3SR2M.step"
     (offset (xyz 0 0 3.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

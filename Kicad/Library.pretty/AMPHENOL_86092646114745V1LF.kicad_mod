@@ -167,7 +167,7 @@
     (solder_mask_margin 0.102) (tstamp c24ac399-00d7-4980-8994-018c3e5ec3b2))
   (pad "B32" thru_hole circle (at -39.37 1.27) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp ed8b106f-010d-4f0c-aa8e-58874df7642f))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/AMPHENOL_86092646114745V1LF.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/AMPHENOL_86092646114745V1LF.step"
     (offset (xyz 0 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

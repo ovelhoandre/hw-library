@@ -483,7 +483,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 25aab2db-2f37-42fb-830d-44865afa46e9))
   (pad "+" smd rect (at -14.65 0) (size 3.2 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a4eb4f3-e7c2-4b69-a472-a52340b55cce))
   (pad "-" smd rect (at 14.65 0) (size 3.2 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c5ba466e-ee21-4fc4-a9c0-809da698d364))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/CR2032-1.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CR2032-1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

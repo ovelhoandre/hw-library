@@ -41,7 +41,7 @@
   (pad "6" smd roundrect (at 0.6 0.45) (size 0.8 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp 158da8c5-f47e-45e0-a8f7-0341c174da96))
   (pad "7" smd roundrect (at 0.6 -0.45) (size 0.8 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp d1dfc257-4744-43d6-8b7c-e2bc046b2e72))
   (pad "8" smd roundrect (at 0.6 -1.35) (size 0.8 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03) (tstamp 000f1a6c-a118-4121-a3f9-b2bb744ff3ee))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/RV-8803-C7-TA-QC.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/RV-8803-C7-TA-QC.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

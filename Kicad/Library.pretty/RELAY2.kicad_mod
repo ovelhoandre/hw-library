@@ -66,12 +66,7 @@
   (pad "3" thru_hole circle (at 2.499 -5.001) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 5162b7a1-92e7-4bde-ab1b-fd26cba41733))
   (pad "4" thru_hole circle (at 2.499 4.999) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp c2504cb6-6300-408e-898a-fded139cdd36))
   (pad "5" thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp b6c13df1-cec5-4ee4-85f2-1ee79c94b037))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/HF32F-G.step"
-    (offset (xyz 7.6 -3.8 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/RELAY2.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/RELAY2.step"
     (offset (xyz 6.5 0 14.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

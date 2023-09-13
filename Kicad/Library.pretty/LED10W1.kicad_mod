@@ -55,17 +55,17 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f578ecb0-5dde-4f34-9a4a-adb829a9f0a5))
   (pad "1" thru_hole circle (at 13.2 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 110f957f-17c1-4776-8e40-ebf1b554c6a7))
   (pad "2" thru_hole circle (at -13.2 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 7cd6016f-fc78-4cce-8990-1767044502af))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/LED-10W-2.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/LED-10W-2.step"
     (offset (xyz 10 10 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/PinHeader_1x01_P2.54mm_Vertical.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/PinHeader_1x01_P2.54mm_Vertical.step"
     (offset (xyz 13.2 0 -0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/PinHeader_1x01_P2.54mm_Vertical.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/PinHeader_1x01_P2.54mm_Vertical.step"
     (offset (xyz -13.2 0 -0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

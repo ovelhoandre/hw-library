@@ -118,7 +118,7 @@
       )
     )
   )
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/ESP32-WROVER.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/ESP32-WROVER.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

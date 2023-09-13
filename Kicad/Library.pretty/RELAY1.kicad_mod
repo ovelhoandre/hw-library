@@ -23,7 +23,7 @@
   (pad "2" thru_hole circle (at 0 7.6) (size 2 2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp e6165640-85cc-4c95-b21d-471902111203))
   (pad "3" thru_hole circle (at 15.24 0) (size 2 2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 53f23331-2d02-44b8-a5df-6c328bc9600d))
   (pad "4" thru_hole circle (at 12.7 7.6) (size 2 2) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 504dbc33-f080-499c-99f5-4896c28dee6e))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/HF32F-G.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/HF32F-G.step"
     (offset (xyz 7.6 -3.8 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

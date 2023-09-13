@@ -55,7 +55,7 @@
     (thermal_bridge_angle 45) (tstamp 081cd217-c0b1-4c52-9b6b-d8cf71875c84))
   (pad "G" smd rect (at 7.75 3.275) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp a706d31e-5abf-40e8-b0ca-297379d195cd))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/U-SD-CARD.step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/U-SD-CARD.step"
     (offset (xyz -0.45 -3.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -29,7 +29,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.CrtYd") (tstamp a8c2b3e8-f810-4953-ae24-426effb0af42))
   (pad "1" thru_hole rect (at -1.25 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 271d21dc-a05c-4907-8b9c-5a157db5ee79))
   (pad "2" thru_hole circle (at 1.25 0) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7a780fa4-0930-4e06-b6ce-13bbe6c3588c))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/S2B-XH-A(LF)(SN).step"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/S2B-XH-A(LF)(SN).step"
     (offset (xyz 0 3.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
