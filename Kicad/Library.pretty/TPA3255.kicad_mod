@@ -82,4 +82,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/HEATSINK_28x60x16.step"
+    (offset (xyz -20.7 30.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
