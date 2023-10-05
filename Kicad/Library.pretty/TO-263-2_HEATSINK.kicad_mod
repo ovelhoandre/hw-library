@@ -1,4 +1,4 @@
-(footprint "TO-263-2" (version 20221018) (generator pcbnew)
+(footprint "TO-263-2_HEATSINK" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
   (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
@@ -74,5 +74,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/HEATSINK_16x40x16.step"
+    (offset (xyz 18 12 2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
   )
 )
