@@ -15,7 +15,7 @@
   (fp_rect (start 0 -120) (end 60 0)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 9cab19a2-3939-4bf2-bda1-4dd5113215e2))
   (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Player/Outputs/DPTower Player Board v1.0.0/WRL_File/Player.wrl"
-    (offset (xyz 2.3 79.5 41.5))
+    (offset (xyz 2.3 60 87.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
