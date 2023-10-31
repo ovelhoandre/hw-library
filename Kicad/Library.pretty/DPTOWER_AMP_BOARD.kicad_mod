@@ -19,4 +19,29 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Amplifier_Front/Outputs/DPTower Amplifier Front v1.0.0/WRL_File/Amplifier Front.wrl"
+    (offset (xyz 9.3 60 163.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Display_Adapter/Outputs/Display Adapter v1.0.0/WRL_File/Display Adapter.wrl"
+    (offset (xyz 21.8 111.6 156.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
+  )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/alça_96mm.STEP"
+    (offset (xyz -6 60 164.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/cantoneira_1026.STEP"
+    (offset (xyz 1 6.2 162.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/cantoneira_1026.STEP"
+    (offset (xyz 1 102.2 162.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
