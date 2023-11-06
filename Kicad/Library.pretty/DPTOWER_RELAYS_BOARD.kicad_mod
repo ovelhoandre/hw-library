@@ -24,12 +24,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Display_Adapter/Outputs/Display Adapter v1.0.0/WRL_File/Display Adapter.wrl"
-    (offset (xyz 21.8 111.6 156.5))
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter (Not Mounted)/Outputs/Display Adapter v1.0.0/WRL_File/Display Adapter.wrl"
+    (offset (xyz 21.8 106.1 156))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/alça_96mm.STEP"
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/al__a_96mm.STEP"
     (offset (xyz -6 59.5 164))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
@@ -43,5 +43,10 @@
     (offset (xyz 1.5 102 162.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
+  )
+  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/Display OLED 0.96_.step"
+    (offset (xyz 22 114 162.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 90))
   )
 )
