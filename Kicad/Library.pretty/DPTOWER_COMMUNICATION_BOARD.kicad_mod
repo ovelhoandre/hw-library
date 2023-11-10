@@ -12,19 +12,19 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 729a3cbc-fbc0-4093-afdf-55451c9cf393)
   )
-  (fp_rect (start 0 -120) (end 60 0)
+  (fp_rect (start -21.8 -120) (end 38.2 0)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 9cab19a2-3939-4bf2-bda1-4dd5113215e2))
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Communication/Outputs/DPTower Communication Board v1.0.0/WRL_File/Communication.wrl"
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Communication/Outputs/DPTower Communication Board v1.0.0/3D_Files/Communication.wrl"
     (offset (xyz 2.3 60 87.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Communication_Front/Outputs/DPTower Communication Front v1.0.0/WRL_File/Communication Front.wrl"
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Communication_Front/Outputs/DPTower Communication Front v1.0.0/3D_Files/Communication Front.wrl"
     (offset (xyz 9.4 60 163.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter (Not Mounted)/Outputs/Display Adapter v1.0.0/WRL_File/Display Adapter.wrl"
+  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter (Not Mounted)/Outputs/Display Adapter v1.0.0/3D_Files/Display Adapter.wrl"
     (offset (xyz 21.8 106.1 156))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
