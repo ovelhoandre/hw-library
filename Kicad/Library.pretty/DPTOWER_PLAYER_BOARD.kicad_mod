@@ -40,32 +40,32 @@
     (rotate (xyz 0 0 -90))
   )
   (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter/Outputs/Display Adapter v1.0.0/3D_Files/Display Adapter.wrl"
-    (offset (xyz 21.8 106.1 156))
+    (offset (xyz 21.8 97.5 156))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))
   )
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/Display OLED 0.96_.step"
-    (offset (xyz 22 114 162.5))
+    (offset (xyz 22 105.2 162.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))
   )
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
-    (offset (xyz 13 92.7 161.5))
+    (offset (xyz 13 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
-    (offset (xyz 22 92.7 161.5))
+    (offset (xyz 22 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
-    (offset (xyz 31 92.7 161.5))
+    (offset (xyz 31 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
   (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/5-1814832-1.step"
-    (offset (xyz -6 123 170.5))
+    (offset (xyz 22 29.5 170.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
