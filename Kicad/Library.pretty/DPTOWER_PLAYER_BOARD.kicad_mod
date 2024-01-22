@@ -14,57 +14,57 @@
   )
   (fp_rect (start -21.8 -120) (end 38.2 0)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 9cab19a2-3939-4bf2-bda1-4dd5113215e2))
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Player/Outputs/DPTower Player Board v1.0.0/3D_Files/Player.wrl"
+  (model "C:/Users/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Player/Outputs/DPTower Player Board v1.0.0/3D_Files/Player.wrl"
     (offset (xyz 2.3 60 87.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Player_Front/Outputs/DPTower Player Front v1.0.0/3D_Files/Player Front.wrl"
+  (model "C:/Users/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/Player_Front/Outputs/DPTower Player Front v1.0.0/3D_Files/Player Front.wrl"
     (offset (xyz 9.4 60 163.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/al__a_96mm.STEP"
+  (model "${ANDRE_3DMODEL_DIR}/al__a_96mm.STEP"
     (offset (xyz -6 60 164))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/cantoneira_1026.STEP"
+  (model "${ANDRE_3DMODEL_DIR}/cantoneira_1026.STEP"
     (offset (xyz 1.5 6.5 162.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/cantoneira_1026.STEP"
+  (model "${ANDRE_3DMODEL_DIR}/cantoneira_1026.STEP"
     (offset (xyz 1.5 102.3 162.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
-  (model "/home/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter/Outputs/Display Adapter v1.0.0/3D_Files/Display Adapter.wrl"
+  (model "C:/Users/andre/Workspace/Hardware/hw-dp-tower/04. Projeto/DisplayButton_Adapter/Outputs/Display Adapter v1.0.0/3D_Files/Display Adapter.wrl"
     (offset (xyz 21.8 97.5 156))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/Display OLED 0.96_.step"
+  (model "${ANDRE_3DMODEL_DIR}/Display OLED 0.96_.step"
     (offset (xyz 22 105.2 162.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
+  (model "${ANDRE_3DMODEL_DIR}/CAP-6mm.step"
     (offset (xyz 13 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
+  (model "${ANDRE_3DMODEL_DIR}/CAP-6mm.step"
     (offset (xyz 22 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CAP-6mm.step"
+  (model "${ANDRE_3DMODEL_DIR}/CAP-6mm.step"
     (offset (xyz 31 84 161.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/5-1814832-1.step"
+  (model "${ANDRE_3DMODEL_DIR}/5-1814832-1.step"
     (offset (xyz 22 29.5 170.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

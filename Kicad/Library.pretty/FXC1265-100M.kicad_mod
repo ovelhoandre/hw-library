@@ -31,7 +31,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 30f55bb9-c86c-4313-b457-1a18edaed552))
   (pad "1" smd rect (at -6.5 0) (size 3.1 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b59c54c9-fc34-454a-995e-ea38e43d2732))
   (pad "2" smd rect (at 6.5 0) (size 3.1 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 228ded8b-abdf-436c-8021-009c8ef6e02c))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/FXC1265-100M.step"
+  (model "${ANDRE_3DMODEL_DIR}/FXC1265-100M.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

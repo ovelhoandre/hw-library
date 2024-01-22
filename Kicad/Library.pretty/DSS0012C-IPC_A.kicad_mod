@@ -41,7 +41,7 @@
   (pad "11" smd rect (at 1.025533 -0.750001) (size 0.861068 0.242473) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6b043d4-34f5-4705-becf-e5b3f82bdff3))
   (pad "12" smd rect (at 1.025533 -1.25) (size 0.861068 0.242473) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6c275fa-6bcc-43c0-8af1-9e584af0a097))
   (pad "13" smd rect (at 0 0) (size 0.7 2.75) (layers "F.Cu" "F.Mask") (tstamp eef610d4-92c9-4092-9ee6-26edd4164d8b))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/DSS0012C.stp"
+  (model "${ANDRE_3DMODEL_DIR}/DSS0012C.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -25,7 +25,7 @@
     (stroke (width 0.127) (type solid)) (fill none) (layer "F.Fab") (tstamp 1216a003-eaf6-43ff-bc49-0000831ed326))
   (pad "1" thru_hole circle (at -0.95 -0.8) (size 1.158 1.158) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp 3bdeaca1-3371-476f-b75e-65c725651e54))
   (pad "2" thru_hole circle (at 0.95 -0.8) (size 1.158 1.158) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp 66f2278a-ec01-41e7-978a-8aad4425d200))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/POM-3042P-R.step"
+  (model "${ANDRE_3DMODEL_DIR}/POM-3042P-R.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

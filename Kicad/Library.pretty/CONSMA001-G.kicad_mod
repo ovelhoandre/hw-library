@@ -43,7 +43,7 @@
     (solder_mask_margin 0.102) (tstamp 4a8aa90c-eb1a-4ddd-b522-c8155396f3aa))
   (pad "S4" thru_hole circle (at 2.55 -2.55) (size 2.25 2.25) (drill 1.5) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp a074aaae-aa9e-4387-ae70-c27848b9d4e0))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CONSMA001-G.step"
+  (model "${ANDRE_3DMODEL_DIR}/CONSMA001-G.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

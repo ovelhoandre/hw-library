@@ -145,7 +145,7 @@
     (solder_mask_margin 0.102) (tstamp 4db696c9-0204-4d1b-ac26-e98955c32cb8))
   (pad "C16" thru_hole circle (at -19.05 -7.62) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 5b4f9e21-0af3-4349-97e2-d12963409764))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/AMPHENOL_86093487313755ELF.step"
+  (model "${ANDRE_3DMODEL_DIR}/AMPHENOL_86093487313755ELF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

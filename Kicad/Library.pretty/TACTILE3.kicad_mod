@@ -49,7 +49,7 @@
   (pad "2" smd rect (at 7 -2.5) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 975800c5-8475-4172-b104-75ff073c736a))
   (pad "3" smd rect (at -7 2.5) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 279c0867-cbdb-496d-9366-7e24cc7a9912))
   (pad "4" smd rect (at 7 2.5) (size 2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 26e0e0be-bcd2-40a2-a95d-5bace99069e1))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/PUSHBUTTON-5.step"
+  (model "${ANDRE_3DMODEL_DIR}/PUSHBUTTON-5.step"
     (offset (xyz -0.3 0 1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

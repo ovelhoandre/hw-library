@@ -18,7 +18,7 @@
   (pad "1" thru_hole roundrect (at -1.225 4.562 90) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp f727e3ca-9cea-4430-b261-0e1942272a98))
   (pad "2" thru_hole roundrect (at 1.7 -1.763 180) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 5d82e424-a656-44b6-812c-c7a66fc60a35))
   (pad "2" thru_hole roundrect (at 4.575 1.187 180) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 8b82cc4d-6917-4282-a8c2-3fbf2b6efd6c))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/DC-017.step"
+  (model "${ANDRE_3DMODEL_DIR}/DC-017.step"
     (offset (xyz -1.2 0.3 14))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

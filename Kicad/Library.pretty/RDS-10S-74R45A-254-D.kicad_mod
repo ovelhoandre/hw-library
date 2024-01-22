@@ -69,7 +69,7 @@
     (solder_mask_margin 0.102) (tstamp 6f86165d-74ba-4c57-a979-64fcb82c2c24))
   (pad "C_2" thru_hole circle (at 0 -2.34) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 4d9b8d91-72be-49b4-bc86-8ebd7726cf0b))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CUI_DEVICES_RDS-10S-74R45A-254-D.step"
+  (model "${ANDRE_3DMODEL_DIR}/CUI_DEVICES_RDS-10S-74R45A-254-D.step"
     (offset (xyz -1.37 0.2 5.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

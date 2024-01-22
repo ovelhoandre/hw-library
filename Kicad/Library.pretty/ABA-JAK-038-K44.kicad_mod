@@ -45,7 +45,7 @@
   (pad "23" thru_hole circle (at 1.25 -8.8) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 68de1515-3cc6-44e9-93ec-63a4d2ab949b))
   (pad "24" thru_hole circle (at -1.25 -8.8) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 43a51dab-a9bb-4df1-8b0b-9b819bb2df3d))
   (pad "25" thru_hole circle (at -3.75 -8.8) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f11e5379-33ae-4644-a75d-fa747e5b8759))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CONECTOR ATX JACK 2 PORT.STEP"
+  (model "${ANDRE_3DMODEL_DIR}/CONECTOR ATX JACK 2 PORT.STEP"
     (offset (xyz 0 12.7 13.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

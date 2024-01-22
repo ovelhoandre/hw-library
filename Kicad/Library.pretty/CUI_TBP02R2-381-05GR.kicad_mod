@@ -42,7 +42,7 @@
   (pad "3" thru_hole circle (at 7.62 0) (size 2.1 2.1) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp ac08f468-c967-49dc-9c76-b649b4ff87aa))
   (pad "4" thru_hole circle (at 11.43 0) (size 2.1 2.1) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 85b83cab-a316-42f5-8fbb-7c2e9a405e63))
   (pad "5" thru_hole circle (at 15.24 0) (size 2.1 2.1) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 916c92c7-fdc2-491c-ad96-06f23e17b6e7))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CUI_DEVICES_TBP02R2-381-05GR.step"
+  (model "${ANDRE_3DMODEL_DIR}/CUI_DEVICES_TBP02R2-381-05GR.step"
     (offset (xyz 19.05 -6.5 18.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

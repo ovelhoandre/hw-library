@@ -31,7 +31,7 @@
   (pad "10" thru_hole oval (at 10.75 3.62) (size 5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 0bba2557-a16f-4f20-85b3-4258583fa43f))
   (pad "11" thru_hole oval (at 10.75 6.16) (size 5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 9d8108fd-5fcc-478d-8a49-01d1a1dbdcfa))
   (pad "12" thru_hole oval (at 10.75 8.7) (size 5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 630d55d5-decd-4e30-9292-3b9df2688492))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/SIM800L.step"
+  (model "${ANDRE_3DMODEL_DIR}/SIM800L.step"
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

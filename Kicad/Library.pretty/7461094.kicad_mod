@@ -30,7 +30,7 @@
   (pad "1" thru_hole circle (at 2.54 -2.54) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 55111f28-38e6-4db7-b410-efac0569a054))
   (pad "1" thru_hole circle (at 2.54 0) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp c76974ed-14b7-447d-801a-77d585d2225c))
   (pad "1" thru_hole circle (at 2.54 2.54) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp d125e43e-b17e-446d-a46e-c693a138266b))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/7461094.step"
+  (model "${ANDRE_3DMODEL_DIR}/7461094.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

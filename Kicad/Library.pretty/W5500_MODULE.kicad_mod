@@ -31,7 +31,7 @@
   (pad "10" thru_hole oval (at 10.16 -1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f5247b42-66cb-4e18-ac33-3cda43fc46a4))
   (pad "11" thru_hole oval (at 10.16 -3.81) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 05b1bd23-8ef5-43ab-b588-c8fe661248c4))
   (pad "12" thru_hole oval (at 10.16 -6.35) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 78993dbf-c37b-45c0-983c-80b4c7fadb21))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/W5500_Module.step"
+  (model "${ANDRE_3DMODEL_DIR}/W5500_Module.step"
     (offset (xyz -11.5 -12.2 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

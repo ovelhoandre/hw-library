@@ -70,7 +70,7 @@
     (solder_mask_margin 0.102) (tstamp 33838094-49ef-4a87-bdd1-d179c1f41121))
   (pad "14" smd rect (at 9.274 -8.545 90) (size 4.9 2.292) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp e6218eb9-0459-4a97-a4ca-aa130eadcc4c))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/HR961160C.step"
+  (model "${ANDRE_3DMODEL_DIR}/HR961160C.step"
     (offset (xyz 0 1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

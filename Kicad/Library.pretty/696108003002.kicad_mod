@@ -43,13 +43,13 @@
     (solder_mask_margin 0.102) (tstamp a8f32577-b0c4-4908-b471-1a10c20de70d))
   (pad "2" thru_hole circle (at 11.3 0) (size 2.25 2.25) (drill 1.5) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp c1f0f7ff-5a7e-4559-a43e-c460d7750eab))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/696108003002.step"
+  (model "${ANDRE_3DMODEL_DIR}/696108003002.step"
     (offset (xyz -12.2 -4.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/Fuse - mini 20A.step"
-    (offset (xyz 0 0 0))
+  (model "${ANDRE_3DMODEL_DIR}/Fuse - mini 20A.step"
+    (offset (xyz 0 0 12))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

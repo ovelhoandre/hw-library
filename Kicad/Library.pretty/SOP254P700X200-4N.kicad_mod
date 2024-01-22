@@ -37,7 +37,7 @@
   (pad "2" smd roundrect (at -3.04 1.27) (size 1.93 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp 4c47c223-d9fd-4c25-9e7e-3dc1dde0dcfe))
   (pad "3" smd roundrect (at 3.04 1.27) (size 1.93 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp ba53dd47-8ccd-47eb-9c81-fd8e9746dc62))
   (pad "4" smd roundrect (at 3.04 -1.27) (size 1.93 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07) (tstamp 90368237-1f8d-48be-a81f-89740e6d1560))
-  (model "C:/Users/andre/Workspace/Hardware/Library/Kicad/3D/SOP254P700X200-4N.step"
+  (model "${ANDRE_3DMODEL_DIR}/SOP254P700X200-4N.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

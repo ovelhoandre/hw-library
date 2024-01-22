@@ -44,7 +44,7 @@
   (pad "2" thru_hole circle (at 4.4958 0) (size 1.4986 1.4986) (drill 0.9906) (layers "*.Cu" "*.Mask") (tstamp 8af9ee22-0b14-4a7c-89b5-344824d11f15))
   (pad "3" thru_hole circle (at -1.2573 -2.4892) (size 1.8034 1.8034) (drill 1.2954) (layers "*.Cu" "*.Mask") (tstamp 041e1151-00ef-4a44-a190-b742dced3137))
   (pad "4" thru_hole circle (at 5.7531 -2.4892) (size 1.8034 1.8034) (drill 1.2954) (layers "*.Cu" "*.Mask") (tstamp a90b9bb0-d4d5-4aa8-9b99-da497aba74da))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/SWITCH_1825968-2.stp"
+  (model "${ANDRE_3DMODEL_DIR}/SWITCH_1825968-2.stp"
     (offset (xyz 2.25 -6.35 4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -71,7 +71,7 @@
     (solder_mask_margin 0.102) (tstamp f92cd5cf-7f8a-4733-945f-9b84d79b3bee))
   (pad "4" smd rect (at -2.5 -3.55) (size 2.2 2.3) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 6d3c32d5-d887-4e9f-b8ee-608fa043d75a))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/SJ2-3574A-SMT-TR.step"
+  (model "${ANDRE_3DMODEL_DIR}/SJ2-3574A-SMT-TR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

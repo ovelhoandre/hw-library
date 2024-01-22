@@ -185,7 +185,7 @@
         )
         (width 0.01) (fill yes))
     ) (tstamp 88230fd6-e3bc-428a-9939-a946c1fef4de))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/DLW5BTM101SQ2L.step"
+  (model "${ANDRE_3DMODEL_DIR}/DLW5BTM101SQ2L.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -47,9 +47,4 @@
   (pad "16" smd rect (at 7.874 -2.54) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 51794c10-6a7b-4581-8998-c8591c4d2cb8))
   (pad "17" smd rect (at 7.874 -3.81) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b3608345-b92b-4575-a39e-16d7d367d632))
   (pad "18" smd rect (at 7.874 -5.08) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 55b97c71-5c37-4130-ac26-9d0f698d04f1))
-  (model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/Ai-Thinker-Ra-01-LoRa.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

@@ -27,7 +27,7 @@
   (pad "2" thru_hole oval (at -1.27 1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 21d635ce-212a-436e-8900-6f95ebc71c55))
   (pad "3" thru_hole oval (at 1.27 1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 4eed0372-d89a-4fec-bea1-b5660297ac7d))
   (pad "4" thru_hole oval (at 1.27 -1.27) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1f92a149-11c2-4b9c-9f4d-d30f134bf31d))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/61300421021.step"
+  (model "${ANDRE_3DMODEL_DIR}/61300421021.step"
     (offset (xyz 0 4 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

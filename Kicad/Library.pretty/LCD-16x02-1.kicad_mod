@@ -111,7 +111,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/PinHeader_1x16_P2.54mm_Vertical.step"
+  (model "${ANDRE_3DMODEL_DIR}/PinHeader_1x16_P2.54mm_Vertical.step"
     (offset (xyz 33 0 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

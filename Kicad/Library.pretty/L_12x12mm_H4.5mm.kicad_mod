@@ -49,12 +49,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b8affda0-ab89-41d7-b7c1-24d280cfe938))
   (pad "1" smd rect (at -4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f3e118d2-fed6-4c83-b4b2-2747b1362c22))
   (pad "2" smd rect (at 4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89337a27-5abb-4351-9690-12fb911c9a05))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_12x12mm_H4.5mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/SPM10040T-100M.step"
+  (model "${ANDRE_3DMODEL_DIR}/SPM10040T-100M.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

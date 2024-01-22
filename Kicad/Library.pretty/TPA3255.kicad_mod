@@ -77,12 +77,12 @@
   (pad "42" smd roundrect (at 3.72 -5.3975) (size 1.57 0.38) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 1e37a546-2f39-4ed2-9267-b394f51ab480))
   (pad "43" smd roundrect (at 3.72 -6.0325) (size 1.57 0.38) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp bade17de-5dc9-43c5-abdc-8bfb41f3c3a0))
   (pad "44" smd roundrect (at 3.72 -6.6675) (size 1.57 0.38) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 9f1d968c-33b0-4032-8c7f-256ed665b90d))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/TPA3255DDV.step"
+  (model "${ANDRE_3DMODEL_DIR}/TPA3255DDV.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/HEATSINK_28x60x16.step"
+  (model "${ANDRE_3DMODEL_DIR}/HEATSINK_28x60x16.step"
     (offset (xyz -20.7 30.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

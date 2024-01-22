@@ -55,7 +55,7 @@
     (solder_mask_margin 0.102) (tstamp d6ec16d3-8063-4cec-abd1-4028a574867f))
   (pad "SH2" thru_hole circle (at -6.44 -0.355) (size 2.15 2.15) (drill 1.35) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 6b7db828-1a43-4e75-aeba-07146541101f))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/SAT3M3232042TR.step"
+  (model "${ANDRE_3DMODEL_DIR}/SAT3M3232042TR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

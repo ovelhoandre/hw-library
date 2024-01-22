@@ -41,7 +41,7 @@
     (solder_mask_margin 0.102) (tstamp 975461c3-fef8-4ad9-b091-b82f25b7ea0d))
   (pad "2" thru_hole circle (at 7.62 0) (size 2.55 2.55) (drill 1.7) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp be7193b4-7d2f-4136-ae3d-b3de6dd19ab1))
-  (model "/home/andre/Workspace/Hardware/Library/Kicad/3D/CUI_DEVICES_TBP05R2-762-02GR.step"
+  (model "${ANDRE_3DMODEL_DIR}/CUI_DEVICES_TBP05R2-762-02GR.step"
     (offset (xyz 10.5 -0.7 -3.95))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 0))
