@@ -6,3 +6,7 @@ Current
 Break Down Voltage
 Tolerance
 Power Rating
+
+LCSC
+JLCPCB Rotation Offset
+JLCPCB Position Offset
