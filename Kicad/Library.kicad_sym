@@ -578,6 +578,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(symbol "1-CH Optocoupler_0_0"
 			(rectangle
 				(start -5.08 5.08)
@@ -1476,6 +1496,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4624,6 +4664,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "AC-DC Module"
 			(at 0 0 0)
 			(effects
@@ -7596,6 +7656,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11428,6 +11508,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "diode"
 			(at 0 0 0)
 			(effects
@@ -12121,6 +12221,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "rectifier ACDC"
 			(at 0 0 0)
 			(effects
@@ -12442,6 +12562,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23614,6 +23754,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Opto-Triac Opto Triac Zero Cross"
 			(at 0 0 0)
 			(effects
@@ -25406,7 +25566,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "-3.0,0.0"
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25723,6 +25883,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26069,6 +26249,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "transistor NPN"
 			(at 0 0 0)
 			(effects
@@ -26281,6 +26481,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26597,6 +26817,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26923,6 +27163,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "transistor PNP"
 			(at 0 0 0)
 			(effects
@@ -27146,6 +27406,26 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "TRIAC"
 			(at 0 0 0)
 			(effects
@@ -27337,6 +27617,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer Part Number" ""
@@ -27346,6 +27627,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" ""
@@ -27369,6 +27651,26 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
 			(at 0 0 0)
 			(effects
 				(font
