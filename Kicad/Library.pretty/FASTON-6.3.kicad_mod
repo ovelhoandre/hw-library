@@ -1,0 +1,122 @@
+(footprint "FASTON-6.3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c02af85d-e57d-44d7-b3ff-cc71b10dcdf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FASTON-6.3"
+		(at 0.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a303a89-6a50-4656-abf8-dcca58cb96df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "825dff3d-2db7-42f9-8cdc-13a7ec8fccf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2690dee3-350c-458d-9b52-64184e1aea35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cee11b8-6246-4ed8-8765-e87b0d2966ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -1)
+		(end 4 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "35b3f4e9-9c1d-4f32-828e-35a8dd41b8d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6aabdbf-6252-4035-ba38-7faa488b8062")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 2.5 1.6)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "c1d2fb14-d5ef-4151-bb41-4fa2aefe0a90")
+	)
+	(pad "1" thru_hole roundrect
+		(at 2.54 0)
+		(size 2.5 1.6)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "8623c704-f076-4618-bd39-4924bec0b5d3")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/Faston-6.3.step"
+		(offset
+			(xyz 0 0.4 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
