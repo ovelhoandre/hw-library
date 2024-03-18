@@ -1,13 +1,14 @@
-(footprint "FASTON-6.3"
+(footprint "1217332-1"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Faston 4.8mm")
 	(property "Reference" "REF**"
-		(at 0.5 2.5 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c02af85d-e57d-44d7-b3ff-cc71b10dcdf4")
+		(uuid "66011035-aea9-4eb8-8a77-8ec64bfae2be")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "FASTON-6.3"
-		(at 0.5 4 0)
+	(property "Value" "1217332-1"
+		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4a303a89-6a50-4656-abf8-dcca58cb96df")
+		(uuid "c410cda4-ca7e-4552-aa64-3d42247e4568")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +29,11 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0.5 3 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "825dff3d-2db7-42f9-8cdc-13a7ec8fccf4")
+		(uuid "d5df7014-9e7c-456b-aa01-21222d211846")
 		(effects
 			(font
 				(size 1 1)
@@ -41,11 +42,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0.5 3 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2690dee3-350c-458d-9b52-64184e1aea35")
+		(uuid "11f0ae97-6033-41fe-aee8-52500ac2985f")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +55,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 0.5 3 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cee11b8-6246-4ed8-8765-e87b0d2966ee")
+		(uuid "bb059c85-9ccf-4d14-9e90-d0676aa3fb80")
 		(effects
 			(font
 				(size 1 1)
@@ -67,22 +68,11 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -4 -1)
-		(end 4 1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "35b3f4e9-9c1d-4f32-828e-35a8dd41b8d4")
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0.5 5.5 0)
+		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d6aabdbf-6252-4035-ba38-7faa488b8062")
+		(uuid "3188bd52-d454-4fd0-b9f0-a414211dd475")
 		(effects
 			(font
 				(size 1 1)
@@ -92,31 +82,31 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at -2.54 0)
-		(size 2.5 1.6)
-		(drill oval 1.9 1)
+		(size 2.6 1.8)
+		(drill oval 1.8 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "c1d2fb14-d5ef-4151-bb41-4fa2aefe0a90")
+		(uuid "319701f3-4534-4132-b978-0d80a929739a")
 	)
 	(pad "1" thru_hole roundrect
 		(at 2.54 0)
-		(size 2.5 1.6)
-		(drill oval 1.9 1)
+		(size 2.6 1.8)
+		(drill oval 1.8 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "8623c704-f076-4618-bd39-4924bec0b5d3")
+		(uuid "c0bcbc4d-ca60-4774-ace5-eb68c506d45f")
 	)
-	(model "${ANDRE_3DMODEL_DIR}/Faston-6.3.step"
+	(model "${ANDRE_3DMODEL_DIR}/1217332-1.step"
 		(offset
-			(xyz 0 0.4 6)
+			(xyz 0 0 12.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )
