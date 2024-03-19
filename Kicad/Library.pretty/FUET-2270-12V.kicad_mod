@@ -1,0 +1,153 @@
+(footprint "FUET-2270-12V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea5fbba1-fbdb-41c2-b8a2-dfc0e0b539bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FUET-2270-12V"
+		(at 0 14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f09ce0a3-bf34-4c84-ae50-1fc994ddeeba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "657f7668-5242-4fb9-9f9d-e3048454d5f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cad24c9-62dc-4d3d-8614-30ff89bb761e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "748e034b-cf9e-424d-ba21-e3ad5831b660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -10.999999 -1.5)
+		(mid 0 -11.101801)
+		(end 10.999999 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf495349-2d3a-4125-bfc9-e3203fd7de07")
+	)
+	(fp_arc
+		(start 10.990222 1.570032)
+		(mid -0.035356 11.101744)
+		(end -10.999999 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c9cd9bf-3077-4724-8c8a-7a0bb4c593a8")
+	)
+	(fp_text user "-"
+		(at 5.5 -0.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1df9c0a4-909c-42a4-bfeb-f240d5700e42")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -5.2 -0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bed6f5b5-02c5-4e07-ad3a-5f7ea1ad7e8c")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "97678a61-06af-477c-b900-318f824d51d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -9.6 0)
+		(size 5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d052c02d-7beb-43eb-b8ce-465a2a7a77eb")
+	)
+	(pad "2" smd rect
+		(at 9.6 0)
+		(size 5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "679a124a-87a1-48d8-88c9-54943a5cf879")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/PKM22EPPH4002-B0.step"
+		(offset
+			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,26 +1,128 @@
-(footprint "DC-017" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 3fe6076e-e848-4fd7-9ec3-2defe10b1019)
-  )
-  (fp_text value "DC-017" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 556ea827-41a2-42e8-9998-9aeba0bcfafd)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1008eb74-5c44-4330-b9fe-c9504a8195a3)
-  )
-  (fp_rect (start 8 6) (end -5.8 -4.7)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1c846465-99f7-4a86-b0cf-d9bfc83a0830))
-  (pad "1" thru_hole roundrect (at -1.225 4.562 90) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp f727e3ca-9cea-4430-b261-0e1942272a98))
-  (pad "2" thru_hole roundrect (at 1.7 -1.763 180) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 5d82e424-a656-44b6-812c-c7a66fc60a35))
-  (pad "2" thru_hole roundrect (at 4.575 1.187 180) (size 2 5) (drill oval 1 3.2) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 8b82cc4d-6917-4282-a8c2-3fbf2b6efd6c))
-  (model "${ANDRE_3DMODEL_DIR}/DC-017.step"
-    (offset (xyz -1.2 0.3 14))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "DC-017"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3fe6076e-e848-4fd7-9ec3-2defe10b1019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DC-017"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "556ea827-41a2-42e8-9998-9aeba0bcfafd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c14be378-b0a2-4b83-b31e-e29d977b71a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b909652-7c10-4b91-aee9-7a2f14671a32")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aaec003-519e-4616-9174-9a51f5c1b186")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 8 6)
+		(end -5.8 -4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1c846465-99f7-4a86-b0cf-d9bfc83a0830")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1008eb74-5c44-4330-b9fe-c9504a8195a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.15 3.487 90)
+		(size 2 5)
+		(drill oval 1 3.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "f727e3ca-9cea-4430-b261-0e1942272a98")
+	)
+	(pad "2" thru_hole roundrect
+		(at 1.7 -1.763 180)
+		(size 2 5)
+		(drill oval 1 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "5d82e424-a656-44b6-812c-c7a66fc60a35")
+	)
+	(pad "2" thru_hole roundrect
+		(at 4.7 0.787 180)
+		(size 2 5)
+		(drill oval 1 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "8b82cc4d-6917-4282-a8c2-3fbf2b6efd6c")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/DC-017.step"
+		(offset
+			(xyz -1.2 0.3 14)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
