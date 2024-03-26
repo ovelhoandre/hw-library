@@ -140,8 +140,20 @@
 		(uuid "679a124a-87a1-48d8-88c9-54943a5cf879")
 	)
 	(model "${ANDRE_3DMODEL_DIR}/PKM22EPPH4002-B0.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${ANDRE_3DMODEL_DIR}/Beeper buzzer 22mm.step"
+		(offset
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
