@@ -1,0 +1,144 @@
+(footprint "Diode_Bridge2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Surface Mount Bridge Rectifier Diode")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "e7315a08-733a-421c-a88b-7cbcca67b58b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge2"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "d0ecccf8-d09a-4156-b03e-fbee36790ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Diode_Bridge2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "775b71e0-3b19-4621-a45d-0a0be62d9e28")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fda4b973-b716-4fb1-afdc-12e3a57f4492")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c4c7be7-07d0-4fd8-b9e0-c361a19318ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -2)
+		(end -2.45 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37217f1c-f275-4dfa-8e7e-0c85300a890f")
+	)
+	(fp_line
+		(start 2.45 -2)
+		(end 2.45 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dfaf314-40e7-4a71-b1cd-c591e01edc29")
+	)
+	(fp_poly
+		(pts
+			(xy 2.26 -3.175) (xy 2.26 -3.455) (xy 2.54 -3.175) (xy 2.26 -3.175)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "62bf3f3b-e869-46ab-9f66-0f73468d0fb3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "be20cde1-29c1-4a82-9969-26834bc86c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.2 -3)
+		(size 1.2 1.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a82d67f5-1aed-4b59-9742-2bbe17d0a67a")
+	)
+	(pad "2" smd rect
+		(at -1.2 -3)
+		(size 1.2 1.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a45688a7-eeea-4a09-915a-5aa4fa26f5c3")
+	)
+	(pad "3" smd rect
+		(at -1.2 3)
+		(size 1.2 1.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d6b2ceb1-7f99-437b-8267-f53b3e6374be")
+	)
+	(pad "4" smd rect
+		(at 1.2 3)
+		(size 1.2 1.84)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "600132b0-7c0e-4423-a9a0-0ab5b451a76d")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/Bridge2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

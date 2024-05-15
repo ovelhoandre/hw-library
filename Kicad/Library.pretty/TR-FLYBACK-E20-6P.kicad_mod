@@ -1,0 +1,152 @@
+(footprint "TR-FLYBACK-E20-6P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -33 -14 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4d0e4e31-cd7a-4791-91a3-a298e60febc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TR-FLYBACK-E20-6P"
+		(at -33 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28b766ec-18a5-43a7-a084-7f3f98e7188f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -33 -13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a9562a7-7f57-4941-8d7b-2e69580eab1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -33 -13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06bab2ad-c548-46fa-abac-7bf00ab0f724")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -33 -13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec6c35b-4734-43d4-9441-c35b24a7abce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 -6.25)
+		(end 6.5 6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ca3fd3ae-8c25-40dc-bf87-f576c9698582")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -33 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db71e097-de02-499b-8eb4-66c7ccd78acf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.1 -5.1)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16c710a6-db66-4d69-83a7-59416a080fb4")
+	)
+	(pad "2" thru_hole circle
+		(at -5.1 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fc21664-5364-4b7d-943f-3e767f6f4372")
+	)
+	(pad "3" thru_hole circle
+		(at -5.1 5.1)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d56cc7c-ec07-49ce-a869-e471c035a23e")
+	)
+	(pad "4" thru_hole circle
+		(at 5.1 5.1)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51b2961c-82c2-4574-841b-da1889e53ba6")
+	)
+	(pad "5" thru_hole circle
+		(at 5.1 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2699767-2ff2-4950-b4ad-41a388080aa7")
+	)
+	(pad "6" thru_hole circle
+		(at 5.1 -5.1)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0768f3bf-9183-4c67-b694-c26808f95869")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/E20-6P-Vertical.step"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
