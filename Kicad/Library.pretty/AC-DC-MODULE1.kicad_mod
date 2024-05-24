@@ -360,7 +360,7 @@
 	)
 	(model "${ANDRE_3DMODEL_DIR}/WX-DC12003.step"
 		(offset
-			(xyz 22.8092 -5.3848 14.605)
+			(xyz 22.8092 -5.3848 15.875)
 		)
 		(scale
 			(xyz 1 1 1)
