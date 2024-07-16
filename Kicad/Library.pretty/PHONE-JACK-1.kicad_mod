@@ -1,0 +1,242 @@
+(footprint "PHONE-JACK-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.075025 -5.937685 0)
+		(layer "F.SilkS")
+		(uuid "05cf7c36-2c94-4cf7-ae9b-e506f3969c81")
+		(effects
+			(font
+				(size 1.000449 1.000449)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PHONE-JACK-1"
+		(at 6.33457 5.974 0)
+		(layer "F.Fab")
+		(uuid "228a7bb4-8471-48ae-b755-45a74aca353e")
+		(effects
+			(font
+				(size 1.001512 1.001512)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "183cc39d-990d-4722-85b2-29e26d9a6fe8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3546ad10-031e-497c-aab4-ce19c4e528de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cec44d16-15a7-44d4-87f3-09ab4a3aef3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -2.5)
+		(end -5 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53c48bca-6b73-4021-ad53-4441f371445b")
+	)
+	(fp_line
+		(start -5 2.5)
+		(end -2 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3cac413-2bdd-4a44-88ec-2c86dc0db2f6")
+	)
+	(fp_line
+		(start -2 -3)
+		(end 1.016 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9fbfbd8-492a-46f7-94fc-d05a7e3f4098")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -5 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aef5238-cfbf-46e9-b724-3de312a3a0a8")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -2 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17a86d6c-e5d4-42dd-a947-3a73b9a9a14a")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a0fec2-63c4-47be-90b6-6a475754ef28")
+	)
+	(fp_line
+		(start -2 3)
+		(end -2 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27610529-d4e9-4750-9dba-54c579f15d09")
+	)
+	(fp_line
+		(start -2 3)
+		(end -1.016 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e10473b5-7dae-45cd-95c9-9c10c1166e15")
+	)
+	(fp_line
+		(start 1.016 3)
+		(end 5.842 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d83eef6-85ea-4a09-8c7e-6bb63f141aba")
+	)
+	(fp_line
+		(start 3.048 -3)
+		(end 9 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73dc0a4-e63c-4d83-b7ea-758a827be7d9")
+	)
+	(fp_line
+		(start 8.128 3)
+		(end 9 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1508811-d6d9-4e98-8d67-74d5dcc24e58")
+	)
+	(fp_line
+		(start 9 -3)
+		(end 9 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7732d7eb-df56-4aea-b237-0b7fa9713493")
+	)
+	(fp_circle
+		(center -4.3 3.3)
+		(end -4.2 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c990a429-b839-4dfc-bec3-d9d5839703ed")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a27b4e83-e618-4419-8702-719da96efb2d")
+	)
+	(pad "" np_thru_hole circle
+		(at 6 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d075b18e-11ab-40c7-8ddb-39955a8e1d33")
+	)
+	(pad "1" smd rect
+		(at 0 3.85)
+		(size 1.5 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5c02dbbc-d624-4565-9089-2a98ab39819f")
+	)
+	(pad "2" smd rect
+		(at 7 3.85)
+		(size 1.5 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "25eabf52-b707-4980-ba29-9a7539ca4e80")
+	)
+	(pad "3" smd rect
+		(at 2 -3.85)
+		(size 1.5 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "932d7cca-c4d4-471c-a4bc-556f57a0c07d")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/PHONE-JACK-1.step"
+		(offset
+			(xyz 1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
