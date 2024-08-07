@@ -46300,17 +46300,6 @@
 			)
 		)
 		(symbol "TR-FLYBACK-01_0_1"
-			(circle
-				(center -2.032 4.572)
-				(radius 0.127)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start -1.524 -4.572)
 				(mid -0.7653 -3.81)
@@ -46562,6 +46551,19 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "TR-FLYBACK-01_1_1"
+			(circle
+				(center -2.032 -4.318)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center 2.032 -3.556)
 				(radius 0.127)
@@ -46570,22 +46572,20 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(circle
-				(center 2.032 7.112)
+				(center 2.032 6.604)
 				(radius 0.127)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-		)
-		(symbol "TR-FLYBACK-01_1_1"
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 2.54)
@@ -46623,7 +46623,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 7.62 180)
+				(at 5.08 -10.16 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -46641,7 +46641,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -46659,7 +46659,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -46677,7 +46677,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -10.16 180)
+				(at 5.08 7.62 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -47312,7 +47312,7 @@
 					)
 				)
 			)
-			(text "Primary\nAWG 30\n157 Turns"
+			(text "Primary\nAWG 31\n157 Turns"
 				(at -6.35 3.175 0)
 				(effects
 					(font
@@ -47320,7 +47320,7 @@
 					)
 				)
 			)
-			(text "Secondary\nAWG 22\n13 Turns"
+			(text "Secondary\nAWG 26\n13 Turns"
 				(at 6.35 3.175 0)
 				(effects
 					(font
@@ -47328,7 +47328,7 @@
 					)
 				)
 			)
-			(text "Secondary\nAWG 22\n27 Turns"
+			(text "Secondary\nAWG 26\n27 Turns"
 				(at 6.35 -15.875 0)
 				(effects
 					(font
@@ -47337,7 +47337,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
+				(at -5.08 7.62 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -47355,7 +47355,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 7.62 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -47373,7 +47373,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -21.59 0)
+				(at -5.08 -11.43 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -47391,7 +47391,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -11.43 0)
+				(at -5.08 -21.59 0)
 				(length 2.54)
 				(name "~"
 					(effects
