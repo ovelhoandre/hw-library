@@ -1,0 +1,275 @@
+*****************************************************************
+******STMicroelectronics MOSFET, IGBT and Bipolar Library *******
+*****************************************************************
+*																*
+* Models provided by STMicroelectronics are not guaranteed to	*
+* fully represent all the specifications and operating			*
+* characteristics of the product behavior that they reproduce.	*
+* The model describes the characteristics of a typical device.	*
+* In all cases, the current product data sheet contains all		*
+* information to be used like final design guidelines and the	*
+* only actual performance specification.						*
+* Altough models can be a useful tool in evaluating device		*
+* performance, they cannot model exact device performance under	*
+* all conditions.												*
+* STMicroelectronics therefore does not assume any				*
+* responsibility arising from their use.						*
+* STMicroelectronics reserves the right to change models		*
+* without prior notice.											*
+*																*
+* Note: The model doesn't take into account the drain, gate,	*
+* source inductances.If these contributions have to be			*
+* considered it is possible include the inductors externally.	*
+* For this package the values can be estimated as follow		*
+*																*
+* Ldrain= 1nH ,Lsource=2nH and Lgate=2.5nH						*
+*																*
+* Rev 1.0 - 28/01/2016		      								*
+*****************************************************************
+
+*****************************************************************
+.SUBCKT STGB20M65DF2-V2 C G E
+
+***********************************************************
+E1    Tj     val_T      VALUE={TEMP}
+R1   val_T   0      1m
+
+
+.param Areacap={1} Area={1} GFS={1} Areamiller={1}
+
+***********************************************************
+Rtk Tj 0 1e010
+Rtk1 Tj 0 1e010
+***********************************************************
+********************************DIODO AK ******************
+
+V_bjt C 1z 0
+G_anodo1 1z a1  VALUE={I_diode(V(1z,a1),v(Tj))}
+r_esc 1z a1 500
+
+***********************************GRdiode*************************************************
+
+V2xx  a1 22xxx 0
+E2xxx 22xxx 1y VALUE={R2(I(V2xx),V(TJ))}
+.FUNC R2(I1,T2) {I1*(rdrain+rpa*((I1**a))**Rx)/((b*((T2+273)/300)**(rdtemp))*Area)}
+
+
+.FUNC I_diode(z3,k3) {(exp(min(-15+z3/(did(k3)),7))+0)}
+.FUNC did(k4) {0.054-50E-06*k4}
+
+************************************************************
+************************* Itail_1 **************************
+
+.param soft=100  H2temp=4
+
+R_edep E d_dedep {soft}
+E_Eds d_dedep edep VALUE {(-V(aa,0))*1}
+C_Cds edep E 100E-12
+E_E001 ba 0 VALUE {(-1*((V(Tj))**(1))*I(V_BJT)*(H2temp))}
+R_coda aa ba 1
+C-coda aa 0 10p
+***** itail********
+
+Gtail d s value {(1/soft)*(IF(v(E,d_dedep)>0,v(E,d_dedep),0))}
+
+****************************************************************
+V_Read 1y d1 0
+
+VLs E ss 0
+
+VLG G g2 0
+
+rgate g2 gat 4
+
+*********************** I step **************************** 
+.PARAM  Vth0=6.5 KpSat0=6  KpLin0=9  Rx=1   rpa=0
+**********************************************************
+.PARAM  rs=8m drs=-1.5 rdrain={8m/Area} rdtemp=-3
+.PARAM  Vthx=4.5m KSat=-1.5   KLin=-1
+.PARAM  lambda=0.001    
+.PARAM  a=1 b=1   
+***********************************************************
+.FUNC vth1(x) {vth0-vthx*(x-27)}
+.FUNC kpsat(x) {kpsat0*((x+273)/300)**(ksat)}
+.FUNC kplin(x) {kplin0*((x+273)/300)**(klin)}
+
+***********************************************************
+
+Vdrain d1 d 0
+
+****************************** GRS *****************************
+r_grs ss s 1k
+V1xx    11xxx ss 0
+E1xxx 11xxx s  VALUE={R1(LIMIT(I(V1xx),-1MEG,1MEG),V(TJ))}
+.FUNC R1(I1,T1)   {-(I1)*((rs/(Area*(((T1+273)/300)**(drs)))))}
+
+******* gmos ******
+
+Gmos d s value {GFS*(IF(V(d,s)>0,(IF(v(gat,s)<vth1(V(TJ)),0,
++(IF((V(d,s)<(v(gat,s)-vth1(V(TJ)))*kpsat(v(TJ))/kplin(v(TJ))),(1+LAMBDA*v(d,s))*kplin(v(TJ))/2*v(d,s)*
++(2*(v(gat,s)-vth1(V(TJ)))-kplin(v(TJ))/kpsat(v(TJ))*v(d,s)),
++(1+LAMBDA*v(d,s))*kpsat(v(TJ))/2*(v(gat,s)-vth1(V(TJ)))**2)))),0))}
+
+
+************************* Capacitance *************************
+
+**** CGS *******
+Cref0 400 0 1E-12
+E20 400 500 value {V(E,gat)}
+V20 500 0 0
+Gcdg0 gat E value {1.1*V(alfa0)*i(V20)*1E12*Areacap}
+Rdummy gat E 10meg
+Rcap0 0 alfa0 1E03
+Ecap0 alfa0 0 TABLE = {V(C,E)}
++(0.1,2590p) 
++(0.2,2382p) 
++(0.5,1991p) 
++(1,1819p) 
++(2,1759p) 
++(3,1743p) 
++(5,1727p) 
++(7,1718p) 
++(10,1709p) 
++(15,1699p) 
++(20,1693p) 
++(25,1689p) 
++(30,1685p) 
++(40,1679p) 
++(50,1675p) 
++(100,1660p) 
++(150,1652p) 
++(200,1645p) 
++(250,1640p) 
++(300,1636p) 
++(350,1632p) 
++(400,1629p) 
++(450,1627p) 
++(500,1624p) 
++(550,1620p) 
++(600,1617.3p) 
++(650,1614p) 
+
+***** CMiller******
+Edev dev1 0 value {v(d,gat)}
+c_dev1 dev1 dev2 1E-12
+R_dev dev2 dev3 1E-06
+V_miller dev3 0 0 
+G_miller d gat  value ={1*Areamiller*v(alfa)*i(V_miller)*1E12}
+
+****************************************************************
+****************************************************************
+Rcap alfa 0 1E03
+Ecap alfa 0 TABLE ={V(C,E)}
++(0.1,2300p) 
++(0.2,2200p) 
++(0.5,2100p) 
++(1,2003p) 
++(2,1921p) 
++(3,1898p) 
++(5,1776p) 
++(7,1664p) 
++(10,854p) 
++(15,144p) 
++(20,39p) 
++(25,35p) 
++(30,32p) 
++(40,28p) 
++(50,25p) 
++(100,18p) 
++(150,15p) 
++(200,13p) 
++(250,12p) 
++(300,11p) 
++(350,11p) 
++(400,11p) 
++(450,11p) 
++(500,11p) 
++(550,11p) 
++(600,11p) 
++(650,11p) 
+
+************************* COSS ****************************
+
+Edevc dev1c 0 value {v(d,s)}
+c_dev1c dev1c dev2c 1E-12
+R_devc dev2c dev3c 1m
+V_millerc dev3c 0 0 
+G_coss C E  value ={1*v(alfa2)*i(V_millerc)*1E12}
+
+***********************************************************
+Rcap2 alfa2 0 1E03
+Ecap2 alfa2 0 TABLE ={V(C,E)}
++(0.1,1579p) 
++(0.2,1261p) 
++(0.5,718p) 
++(1,454p) 
++(2,314p) 
++(3,258p) 
++(5,203p) 
++(7,173p) 
++(10,147p) 
++(15,121p) 
++(20,106p) 
++(25,95p) 
++(30,87p) 
++(40,76p) 
++(50,68p) 
++(100,49p) 
++(150,40p) 
++(200,35p) 
++(250,32p) 
++(300,29p) 
++(350,27p) 
++(400,27p) 
++(450,26p) 
++(500,26p) 
++(550,25p) 
++(600,25p) 
++(650,25p) 
+
+********************
+V_sense2  sx s  0
+
+************************ BV *****************************
+
+G_bvdss   d1bvdss1   ss  VALUE={I_BVDSS(V(d1bvdss1,ss),v(Tj))}
+R_GBDSS d1bvdss1 0 1E10
+.FUNC  I_BVDSS(z,k1) {(exp(min(-50+z/(bvd(k1)),7))-1n)}
+.FUNC bvd(k) {15+0.0018*k}
+R_bvdss d1 d1bvdss1 10
+
+************************* VF ******************************
+
+R_diodo C d1z {resdiodo}
+V_diodo d1zd d1z 0
+G_diode E d1zd VALUE={IF_diode(V(E,d1zd),v(Tj))}
+R_x     E d1zd 1E9
+.FUNC IF_diode(z3,k3) {(exp(min(-15+z3/(diodo(k3)),7))-1n)}
+.FUNC diodo(k4) {0.075-100E-06*k4}
+.PARAM resdiodo={25m}
+***********************************************************
+
+************************** Recovery diode **********************
+
+E_E002 ba1 0 VALUE {(-I(V_diodo))}
+R_R002 aa1 ba1 1k
+C aa1 0 10E-12
+.param irrm1=1.5e4
+R_edep1 C d_dedep1 1E3
+E_Eds1 d_dedep1 edep1 VALUE {-V(aa1,0)*irrm1*Area*V(gf)}
+C_Cds1 edep1 E {0.5p}
+*****
+rdv d cff 1
+cdv cff s 1000p
+
+Rcapa gf 0 1E03
+Ecapa gf 0 TABLE ={V(Tj)}
++(25,0.05)
++(175,0.15)
+
+.ENDS STGB20M65DF2-V2
+
+
+
+
+
