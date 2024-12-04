@@ -4790,6 +4790,262 @@
 			)
 		)
 	)
+	(symbol "ACS712xLCTR-20A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.874 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACS712xLCTR-20A"
+			(at -7.874 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at -13.208 0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en"
+			(at 7.366 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 100mV/A, SOIC-8"
+			(at 7.366 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C10681"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "hall effect current monitor sensor isolated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9m*P1.27mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ACS712xLCTR-20A_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "ACS712xLCTR-20A_1_1"
+			(pin passive line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "IP+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "IP+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "IP-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -6.35 0)
+				(length 2.54)
+				(name "IP-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "FILTER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "VIOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "AD8137"
 		(pin_names
 			(offset 1.016)
@@ -19577,7 +19833,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 8.89 0)
+			(at -6.35 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19586,7 +19842,7 @@
 			)
 		)
 		(property "Value" "GP9101-F10K"
-			(at -6.35 6.35 0)
+			(at -6.35 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19595,7 +19851,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-			(at -15.24 25.4 0)
+			(at -14.986 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +19861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -13.97 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19615,7 +19871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -13.97 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,7 +19881,7 @@
 			)
 		)
 		(property "Manufacturer" "Guestgood"
-			(at 0 0 0)
+			(at -13.97 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19891,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GP9101-F10K-N-SW"
-			(at -24.13 26.67 0)
+			(at -23.876 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +19901,7 @@
 			)
 		)
 		(property "LCSC" "C20415758"
-			(at -24.13 26.67 0)
+			(at -23.876 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19655,7 +19911,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "0"
-			(at 0 0 0)
+			(at -13.97 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19665,7 +19921,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0.0,0.0"
-			(at 0 0 0)
+			(at -13.97 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,8 +19950,8 @@
 		)
 		(symbol "GP9101-F10K_0_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -19707,7 +19963,7 @@
 		)
 		(symbol "GP9101-F10K_1_1"
 			(pin no_connect line
-				(at -10.16 -13.97 0)
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -19725,7 +19981,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -10.16 -16.51 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -19743,7 +19999,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -19.05 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -19760,26 +20016,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -15.24 24.13 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at -10.16 -21.59 0)
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -19797,7 +20035,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -21.59 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -19815,7 +20053,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -19.05 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "PWM"
 					(effects
@@ -19833,7 +20071,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 -16.51 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "PWMB"
 					(effects
@@ -19851,7 +20089,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -13.97 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
