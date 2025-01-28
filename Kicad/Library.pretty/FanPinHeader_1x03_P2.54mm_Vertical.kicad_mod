@@ -1,0 +1,362 @@
+(footprint "FanPinHeader_1x03_P2.54mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
+	(tags "pin header 3-pin CPU fan")
+	(property "Reference" "REF**"
+		(at -42.54 -56.4 0)
+		(layer "F.SilkS")
+		(uuid "b93773a7-c2cd-4ac4-9839-7bcb88fd0f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FanPinHeader_1x03_P2.54mm_Vertical"
+		(at -42.49 -48.5 0)
+		(layer "F.Fab")
+		(uuid "932c0585-bbae-435e-8648-a77b15b0c863")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -45.04 -53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5cd213d-d5b9-43e6-ba48-8a2bb9f65263")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -45.04 -53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4b9e985-207d-4245-b61b-cd653c38057e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -45.04 -53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f6cf64-ed59-4575-a372-609db2b531a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -46.39 -55.65)
+		(end -38.59 -55.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "063419a4-2511-490b-bee6-e318c723fe3b")
+	)
+	(fp_line
+		(start -46.39 -49.6)
+		(end -46.39 -55.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31446ec1-b7cd-4e7e-a2e0-c17afbb5ef39")
+	)
+	(fp_line
+		(start -45.04 -50.71)
+		(end -39.96 -50.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68fb110f-4210-4f43-ba70-068a21b7cea8")
+	)
+	(fp_line
+		(start -45.04 -49.7)
+		(end -45.04 -50.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36609fe4-92b3-48cb-b088-6d66908bf458")
+	)
+	(fp_line
+		(start -39.96 -50.71)
+		(end -39.96 -49.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f88f54c3-edee-479b-8d15-ca014de6db49")
+	)
+	(fp_line
+		(start -38.59 -55.65)
+		(end -38.59 -49.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5144d8b-eef1-4660-b21f-89b88fbe4882")
+	)
+	(fp_line
+		(start -38.59 -49.6)
+		(end -46.39 -49.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab380143-cc8f-4562-9cee-2caf148ed023")
+	)
+	(fp_rect
+		(start -47.5 -47.5)
+		(end 47.5 47.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2c734ac7-8059-4eb1-8574-48ee6039ae6c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 44.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7da982a9-9394-4286-b6c4-b8def1e2b450")
+	)
+	(fp_circle
+		(center -41 -41)
+		(end -39 -41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "345ac2a0-72ce-4611-bdf9-93028fdd7922")
+	)
+	(fp_circle
+		(center -41 41)
+		(end -39 41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2aaeeac9-9e5e-4fc3-b2aa-ac6fa5316a1b")
+	)
+	(fp_circle
+		(center 41 -41)
+		(end 43 -41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "567f5c8c-272c-4427-8282-46a360742fd6")
+	)
+	(fp_circle
+		(center 41 41)
+		(end 43 41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "d753e1bb-ecf5-4968-9765-175e55a5e5e2")
+	)
+	(fp_line
+		(start -46.79 -49.2)
+		(end -46.79 -56.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a36d297-fe1a-4f95-898a-3af88732493b")
+	)
+	(fp_line
+		(start -46.79 -49.2)
+		(end -38.19 -49.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2c5da3c-e011-42a0-bb14-a5376fdb3f3a")
+	)
+	(fp_line
+		(start -38.19 -56.05)
+		(end -46.79 -56.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db5f4946-faca-423a-946b-a3e7f54a5db4")
+	)
+	(fp_line
+		(start -38.19 -56.05)
+		(end -38.19 -49.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb1ebc7c-4d7f-4428-b56b-3f09dc2e95c1")
+	)
+	(fp_line
+		(start -46.29 -55.55)
+		(end -38.69 -55.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f133102a-6b4a-4948-ae51-d6c9818bf59f")
+	)
+	(fp_line
+		(start -46.29 -49.7)
+		(end -46.29 -55.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe8fc523-7f9c-4b88-bcc4-357e7189c15c")
+	)
+	(fp_line
+		(start -45.04 -50.7)
+		(end -45.04 -49.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daee62db-f245-4a33-9bf6-ae376606dbfc")
+	)
+	(fp_line
+		(start -39.99 -50.7)
+		(end -45.04 -50.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41045328-b302-4457-910b-578eaaa76c99")
+	)
+	(fp_line
+		(start -39.99 -49.7)
+		(end -39.99 -50.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd6318b3-0720-4fbc-b5ae-e9ed38cbc4a6")
+	)
+	(fp_line
+		(start -38.69 -55.55)
+		(end -38.69 -49.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e1d3eb6-f2ec-4fcb-9d1b-1e4a82d2cc55")
+	)
+	(fp_line
+		(start -38.69 -49.7)
+		(end -46.29 -49.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1f3ae73-4744-4206-9633-f5679bdc3fc5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -42.59 -51.2 0)
+		(layer "F.Fab")
+		(uuid "f56896de-fad4-428b-8754-5ac27106e882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -45.04 -53 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee1eca3e-1202-492c-91ef-828a4a4ebf0f")
+	)
+	(pad "2" thru_hole oval
+		(at -42.5 -53 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5df1c66-5090-49b6-b530-087950cd0090")
+	)
+	(pad "3" thru_hole oval
+		(at -39.96 -53 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39f98cf9-ac91-4ab7-b950-1d396ffe20d9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz -45 53 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

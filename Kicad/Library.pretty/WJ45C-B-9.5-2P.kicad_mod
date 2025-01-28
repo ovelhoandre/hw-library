@@ -1,0 +1,111 @@
+(footprint "WJ45C-B-9.5-2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba202523-9074-43dd-9f61-cc7a8c0afd14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WJ45C-B-9.5-2P"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be5a212b-23b4-428b-9a11-410477116053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b8cde91-f6ba-4d7d-81bf-efa35c35830d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c91bdfc3-21f2-4945-8df1-d40265143db7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02bd3648-b147-4a5e-aec2-85b0f2d5496b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.45 -7.9)
+		(end 10.45 7.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "62bd3f90-e064-4126-a264-4290a78f9088")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8439c3d9-cc38-40d0-a905-9a505c471b20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -4.75 0)
+		(size 3.9 2.9)
+		(drill oval 1.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "b34e95a3-7f34-449a-be8f-7f74a4c8d0e8")
+	)
+	(pad "2" thru_hole roundrect
+		(at 4.75 0)
+		(size 3.9 2.9)
+		(drill oval 1.9 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "51952053-ce3f-45e0-9c9c-989dc9aa9cb4")
+	)
+)
