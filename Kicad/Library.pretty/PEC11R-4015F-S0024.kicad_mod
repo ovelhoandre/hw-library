@@ -1,0 +1,142 @@
+(footprint "PEC11R-4015F-S0024"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.75 -9.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe70a511-21f7-4c0b-85fe-ae5b22ea4ba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PEC11R-4015F-S0024"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71292b6c-2be5-4a0b-92e1-7c756a962687")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba0f7467-e4a8-41e3-bd36-adf5854bbfcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a54564b-f525-4884-bcdf-27a7b68f6008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -6.6 -1.3)
+		(end -4.8 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "efce6be7-1a1e-4a4c-9553-1d2b72f8ae7c")
+	)
+	(fp_rect
+		(start 4.8 -1.3)
+		(end 6.6 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b035725b-d144-48d9-ac96-cb4409d7fa13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccb6405e-5e76-4924-a48b-4fc1380f38fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at -2.5 7.5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a34b878-e91f-47df-a749-cf6d5f0d542f")
+	)
+	(pad "B" thru_hole circle
+		(at 2.5 7.5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d2bc4b5-d9b7-47be-a3ea-47b64e42f3c6")
+	)
+	(pad "C" thru_hole circle
+		(at 0 7.5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b83e9ee-aab6-4a11-bbc9-f7627ea0d5aa")
+	)
+	(pad "S1" thru_hole circle
+		(at -2.5 -7)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf3d1571-244e-4c19-b2af-a5260ee43589")
+	)
+	(pad "S2" thru_hole circle
+		(at 2.5 -7)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3baea316-8a7c-47cd-973d-ccca376d4f56")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/PEC11R-4015F-S0024.step"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

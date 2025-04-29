@@ -1,0 +1,123 @@
+(footprint "DPClass Board C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.5 -13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe70a511-21f7-4c0b-85fe-ae5b22ea4ba7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DPClass Board C"
+		(at 6.375 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71292b6c-2be5-4a0b-92e1-7c756a962687")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -28.15 -18.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba0f7467-e4a8-41e3-bd36-adf5854bbfcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -28.15 -18.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a54564b-f525-4884-bcdf-27a7b68f6008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start 2.5 -11.9)
+		(end 10.25 11.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "53116b05-2b58-4914-8e73-a3b307948330")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.375 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccb6405e-5e76-4924-a48b-4fc1380f38fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at 5.4 -8)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a34b878-e91f-47df-a749-cf6d5f0d542f")
+	)
+	(pad "B" thru_hole circle
+		(at 5.4 8)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d2bc4b5-d9b7-47be-a3ea-47b64e42f3c6")
+	)
+	(pad "C" thru_hole circle
+		(at 5.4 -10.54)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8aee7013-c146-4312-b04e-e402808b0317")
+	)
+	(pad "C" thru_hole circle
+		(at 5.4 10.54)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b83e9ee-aab6-4a11-bbc9-f7627ea0d5aa")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/DPClass Board C.step"
+		(offset
+			(xyz 2.5 0 8.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

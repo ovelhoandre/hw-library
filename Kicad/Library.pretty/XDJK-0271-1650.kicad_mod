@@ -1,0 +1,186 @@
+(footprint "XDJK-0271-1650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b83a2d86-a6e6-49eb-a301-054300651a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDJK-0271-1650"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "787f57a1-af7d-4cd3-bb0a-cb1fd029edbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62887aee-7730-4345-afb0-e1f53cbfcb54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ea220b8-b0cd-4c11-8e71-5dae49f21023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9 -6)
+		(end -9 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1908f9b-d24a-4061-9469-8b7c1760ce64")
+	)
+	(fp_line
+		(start -9 2)
+		(end -9 7.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1166453-2ac4-4111-8f88-87910b3991fe")
+	)
+	(fp_line
+		(start -9 7.3)
+		(end 9 7.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90bd5e16-cecc-4c4f-b78a-6cfe3750deca")
+	)
+	(fp_line
+		(start 9 -6)
+		(end -9 -6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "094194f6-91c7-4612-a722-82fe722eef80")
+	)
+	(fp_line
+		(start 9 -3)
+		(end 9 -6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb185c68-42ce-481a-bfc1-271e2848df56")
+	)
+	(fp_line
+		(start 9 2)
+		(end 9 7.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25e1dcce-7efb-4372-aa34-9496513895fa")
+	)
+	(fp_rect
+		(start -7 0.85)
+		(end -9 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "f4d49f72-77e0-4c7c-93db-065fb6d3cd4a")
+	)
+	(fp_rect
+		(start 7 0.85)
+		(end 9 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ea8365fb-ab78-4a8e-83da-b1270aea6c20")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c709e418-e57a-4951-973e-12dc1331a8a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "C" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "227a1ba5-e0c8-4992-b4a0-a9b6eda00acc")
+	)
+	(pad "L" thru_hole circle
+		(at 4 -3.1)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "406fb2a7-e897-4fe4-a384-2c02664afccb")
+	)
+	(pad "R" thru_hole circle
+		(at -4 -3.9)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2db63b8-098f-4fba-8237-2762f14741b4")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/XDJK-0271-1650.step"
+		(offset
+			(xyz 0 -7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
