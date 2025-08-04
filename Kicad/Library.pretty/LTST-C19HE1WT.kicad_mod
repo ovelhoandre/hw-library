@@ -71,8 +71,8 @@
 		(uuid "5f344ff0-30ac-48c0-8139-ae5951aa6a43")
 	)
 	(fp_circle
-		(center -1.4 -1)
-		(end -1.3 -1)
+		(center -1.4 1)
+		(end -1.3 1)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -162,8 +162,8 @@
 		(uuid "a60b7c53-2f90-47b4-9aec-c78503ae8fea")
 	)
 	(fp_circle
-		(center -1.4 -1)
-		(end -1.3 -1)
+		(center -1.4 1)
+		(end -1.3 1)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -173,32 +173,32 @@
 		(uuid "57f88df1-117e-49f3-bc91-21bd798d7a87")
 	)
 	(pad "1" smd rect
+		(at -0.425 0.725)
+		(size 0.65 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "26226158-b13f-4ff2-905c-d518f5aa5d2d")
+	)
+	(pad "2" smd rect
 		(at -0.425 -0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "599a036c-1b34-492d-8e51-8cc1a05ea974")
 	)
-	(pad "2" smd rect
+	(pad "3" smd rect
 		(at 0.425 -0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "0fc7577a-1e4a-4c5a-8319-28cfa8338b68")
 	)
-	(pad "3" smd rect
+	(pad "4" smd rect
 		(at 0.425 0.725)
 		(size 0.65 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "44635d22-c69d-4fcf-b218-601cf5892b74")
-	)
-	(pad "4" smd rect
-		(at -0.425 0.725)
-		(size 0.65 0.85)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "26226158-b13f-4ff2-905c-d518f5aa5d2d")
 	)
 	(embedded_fonts no)
 	(model "${ANDRE_3DMODEL_DIR}/LTST-C19HE1WT.step"
