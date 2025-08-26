@@ -1,0 +1,112 @@
+(footprint "DPPower-5V-1A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -18 -13.5 0)
+		(layer "F.SilkS")
+		(uuid "3f4311a7-48da-4cc4-89bc-6281dfa9bc80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DPPower-5V-1A"
+		(at -14 13.335 0)
+		(layer "F.Fab")
+		(uuid "24320237-127a-4b47-80c0-a10347b67379")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "751fafc5-888d-49a8-ab59-c03a4ebd2944")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a87de00-b8eb-47b8-a247-b0ad5643eeb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -20 -12.5)
+		(end 20 12.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "495cb836-aee3-4e46-8cb6-beda000dfa1e")
+	)
+	(pad "1" thru_hole rect
+		(at -18 -10.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "45991896-a5c1-4a3f-8e99-a1f7105cb668")
+	)
+	(pad "2" thru_hole circle
+		(at -18 10.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "87c6d2fb-cd5b-4dfa-aaf7-cee1759720f8")
+	)
+	(pad "3" thru_hole circle
+		(at 18 -7.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a3d50195-5e31-4fdc-8c0f-fc35f4c4a863")
+	)
+	(pad "4" thru_hole circle
+		(at 18 10.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1a85d7a4-92fa-46d3-b7a8-c7ba4c3a53e2")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/Power 5V-1A.step"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
