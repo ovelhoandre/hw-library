@@ -1,0 +1,132 @@
+(footprint "P160KN-0QC15B500K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.015 -5.885 0)
+		(layer "F.SilkS")
+		(uuid "191a8840-79d9-452f-ab99-c956cefab95b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "P160"
+		(at -7.8 -7.9 0)
+		(layer "F.Fab")
+		(uuid "c76053c6-65d7-42cc-8de9-35263e31cec2")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0af23f36-8c41-425b-b802-01b59a868f48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ba537a-0e6d-4abf-ab77-0dd63d25d861")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9 -4.9)
+		(end 9 -4.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22b416c0-565c-4a02-9ab3-1cc45ff0f56d")
+	)
+	(fp_line
+		(start -9 3.6)
+		(end -9 -4.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "950e168a-bb3c-4f43-907d-c375b67ae811")
+	)
+	(fp_line
+		(start 9 -4.9)
+		(end 9 3.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8d9cd4c-fad4-47db-9e9d-a299f3e2a870")
+	)
+	(fp_line
+		(start 9 3.6)
+		(end -9 3.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d198d3c7-37ca-4a51-9a62-61641dedb985")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9665a8ed-7882-4175-b24a-713a7338562f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "28255ec7-c354-4c53-bb80-3ce70811cb10")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7dcbb61b-0228-4125-b16d-ae22cbfba3a0")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/POT1.step"
+		(offset
+			(xyz 0 0 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
