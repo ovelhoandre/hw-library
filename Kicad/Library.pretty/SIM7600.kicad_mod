@@ -1,0 +1,145 @@
+(footprint "SIM7600"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "e8476c96-2ec8-45c1-9ca0-fd78084fe39b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SIM7600"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "1aa248d9-be9f-4f88-a1f2-3ba93f8047d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1a0ad97-6d49-454b-9795-e8c0701375b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "763df234-23d3-42c0-9980-541ac9e76b54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "1"
+		(at -9.398 -7.112 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79a6c02b-95c1-45cb-aeb4-b1328e7f29c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.75 -7.62)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bc71fe3-71f4-4978-8f2f-c69789ff6eba")
+	)
+	(pad "2" thru_hole circle
+		(at -10.75 -5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ab1430f-909d-4b9b-b7b4-3a6cda002421")
+	)
+	(pad "3" thru_hole circle
+		(at -10.75 -2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d7c5585-e836-47a2-9ec0-069af24cbd41")
+	)
+	(pad "4" thru_hole circle
+		(at -10.75 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "733470fb-5d87-4523-965a-00558e33275a")
+	)
+	(pad "5" thru_hole circle
+		(at -10.75 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c519c2d-0efd-4a9a-adca-7fab561f2978")
+	)
+	(pad "6" thru_hole circle
+		(at -10.75 5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d1a3a94-16c1-477a-a988-f091355e3353")
+	)
+	(pad "7" thru_hole circle
+		(at -10.75 7.62)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ff60c07-25e4-4d49-9993-833d7304c640")
+	)
+	(embedded_fonts no)
+	(model "${ANDRE_3DMODEL_DIR}/SIM7600.step"
+		(offset
+			(xyz -12.5 0 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+		(offset
+			(xyz -10.75 7.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
