@@ -1,7 +1,7 @@
 (footprint "C481463-POWER"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d010f76e-a888-4faf-8140-bc2d6cb5bfe6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -79,7 +69,7 @@
 	(pad "1" thru_hole circle
 		(at -2.5 -4.95)
 		(size 3.6 3.6)
-		(drill 2.1)
+		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -88,7 +78,7 @@
 	(pad "1" thru_hole circle
 		(at -2.5 4.95)
 		(size 3.6 3.6)
-		(drill 2.1)
+		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -97,7 +87,7 @@
 	(pad "1" thru_hole circle
 		(at 2.5 -4.95)
 		(size 3.6 3.6)
-		(drill 2.1)
+		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
@@ -106,10 +96,11 @@
 	(pad "1" thru_hole circle
 		(at 2.5 4.95)
 		(size 3.6 3.6)
-		(drill 2.1)
+		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "84289dfa-a89b-4b49-aa33-788675e72c48")
 	)
+	(embedded_fonts no)
 )
