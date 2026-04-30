@@ -1,10 +1,10 @@
-(footprint "RM14D391KD1IE100"
+(footprint "5D-15"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -6.25 -3.335 0)
+		(at -6.75 -4 0)
 		(layer "F.SilkS")
 		(uuid "a7650b27-9251-4729-be28-a99534544a74")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "RM14D391KD1IE100"
-		(at 1.065 3.335 0)
+	(property "Value" "5D-15"
+		(at -6.25 4.25 0)
 		(layer "F.Fab")
 		(uuid "e26866ec-3c02-4605-a5c9-6b2de94a1ae8")
 		(effects
@@ -51,8 +51,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -8.25 -1.85)
-		(end -8.25 1.85)
+		(start -8.75 -3)
+		(end -8.75 3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -61,8 +61,8 @@
 		(uuid "5a81293c-ae8a-4839-b5dc-0793abb49774")
 	)
 	(fp_line
-		(start -8.25 -1.85)
-		(end -5 -1.85)
+		(start -8.75 -3)
+		(end 8.75 -3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -71,28 +71,8 @@
 		(uuid "a6027e84-cd10-4e72-b497-2f59c3203045")
 	)
 	(fp_line
-		(start -8.25 1.85)
-		(end 2.5 1.85)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9710dc0b-cb30-466a-b5ec-c8be14851e70")
-	)
-	(fp_line
-		(start -2.5 -1.85)
-		(end 8.25 -1.85)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ad69f099-186c-4c17-9941-7649c8c0b760")
-	)
-	(fp_line
-		(start 5 1.85)
-		(end 8.25 1.85)
+		(start -8.75 3)
+		(end 8.75 3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -101,8 +81,8 @@
 		(uuid "4bd03cfe-428f-4ffe-be9e-0f6d7d856bc3")
 	)
 	(fp_line
-		(start 8.25 -1.85)
-		(end 8.25 1.85)
+		(start 8.75 -3)
+		(end 8.75 3)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -111,8 +91,8 @@
 		(uuid "f55d6a12-4efa-4e4d-8a1d-cb803c422659")
 	)
 	(fp_line
-		(start -8.5 -2.25)
-		(end -8.5 2.25)
+		(start -9 -3.25)
+		(end -9 3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -121,8 +101,8 @@
 		(uuid "8fa95d5e-7137-4fe7-af87-51d761fc947a")
 	)
 	(fp_line
-		(start -8.5 -2.25)
-		(end 8.5 -2.25)
+		(start -9 -3.25)
+		(end 9 -3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -131,8 +111,8 @@
 		(uuid "67b30bdb-bfaa-401a-8222-f380a5989d66")
 	)
 	(fp_line
-		(start 8.5 -2.25)
-		(end 8.5 2.25)
+		(start 9 -3.25)
+		(end 9 3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -141,8 +121,8 @@
 		(uuid "b2b63b37-caef-446d-8e62-ebe2a2328cf3")
 	)
 	(fp_line
-		(start 8.5 2.25)
-		(end -8.5 2.25)
+		(start 9 3.25)
+		(end -9 3.25)
 		(stroke
 			(width 0.05)
 			(type solid)
