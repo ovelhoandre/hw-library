@@ -11314,7 +11314,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 24.13 0)
+			(at -12.192 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11322,7 @@
 			)
 		)
 		(property "Value" "CD4047BM96"
-			(at -7.62 -24.13 0)
+			(at -6.604 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11330,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11357,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +11366,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CD4047BM96"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11375,7 @@
 			)
 		)
 		(property "LCSC" "C46538"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +11384,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "0"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11393,7 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0.0,0.0"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,133 +11421,7 @@
 		)
 		(symbol "CD4047BM96_1_0"
 			(pin input line
-				(at -15.24 17.78 0)
-				(length 5.08)
-				(name "ASTABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 15.24 0)
-				(length 5.08)
-				(name "~{ASTABLE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 10.16 0)
-				(length 5.08)
-				(name "-TRIGGER"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 7.62 0)
-				(length 5.08)
-				(name "+TRIGGER"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 2.54 0)
-				(length 5.08)
-				(name "RETRIGGER"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -2.54 0)
-				(length 5.08)
-				(name "EXT_RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -7.62 0)
-				(length 5.08)
-				(name "R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -12.7 0)
+				(at -17.78 15.24 0)
 				(length 5.08)
 				(name "C"
 					(effects
@@ -11565,7 +11439,25 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -17.78 0)
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "RC_COMMON"
 					(effects
@@ -11582,17 +11474,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 27.94 270)
+			(pin input line
+				(at -17.78 0 0)
 				(length 5.08)
-				(name "VDD"
+				(name "~{ASTABLE}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "ASTABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "-TRIGGER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11601,7 +11529,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 90)
+				(at -17.78 -15.24 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -11618,8 +11546,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 15.24 17.78 180)
+				(at 17.78 10.16 180)
 				(length 5.08)
 				(name "OSC_OUT"
 					(effects
@@ -11636,17 +11582,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 15.24 7.62 180)
+			(pin input line
+				(at 17.78 5.08 180)
 				(length 5.08)
-				(name "Q"
+				(name "RETRIGGER"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11655,7 +11601,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 2.54 180)
+				(at 17.78 0 180)
 				(length 5.08)
 				(name "~{Q}"
 					(effects
@@ -11672,11 +11618,65 @@
 					)
 				)
 			)
+			(pin output line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "EXT_RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -15.24 180)
+				(length 5.08)
+				(name "+TRIGGER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "CD4047BM96_1_1"
 			(rectangle
-				(start -10.16 22.86)
-				(end 10.16 -22.86)
+				(start -12.7 17.78)
+				(end 12.7 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -54548,6 +54548,196 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SM2082G"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SM2082G"
+			(at -12.7 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:TO-252-2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Sunmoon Micro"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SM2082G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C111981"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.0,0.0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SM2082G_0_0"
+			(rectangle
+				(start -12.7 -5.08)
+				(end 12.7 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "AC(L)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "AC(N)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "+VO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "-VO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
