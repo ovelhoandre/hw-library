@@ -1,0 +1,12 @@
+Model: ACD1200.step
+Component: Aosong/ASAIR ACD1200, JLCPCB/LCSC C45354800
+Source: ASAIR ACD1200 datasheet, mechanical drawing and product photographs
+Datasheet URL: https://atta.szlcsc.com/upload/public/pdf/source/20250219/24409A498D1FD6DB9FB642E1380D0439.pdf
+Product URL: https://www.lcsc.com/product-detail/C45354800.html
+Origin: Locally generated from published mechanical dimensions and photographs; no third-party CAD model was redistributed.
+Detail level: Medium; external mechanical envelope, PCB, housing, vents, mounting recesses, headers and pins.
+Mounting datum: Header housing rests at Z=0 on the carrier PCB; the module PCB rests on the 2.54mm header housing.
+Module PCB: 33.00mm x 22.00mm, spanning the full width of both header housings.
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Generated: 2026-07-22

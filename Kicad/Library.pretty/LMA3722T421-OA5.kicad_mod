@@ -1,13 +1,13 @@
 (footprint "LMA3722T421-OA5"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.8 -3.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9b314c79-3bfc-4f3f-ac81-273707f06d2d")
+		(uuid "a7a0bf6c-803b-4781-a08e-54defe16e625")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0.2 3.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e9c530b2-8e2e-4c26-a950-a36a1274c131")
+		(uuid "a5ccf9a5-e324-4105-a36b-f9c100207317")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "666f2962-cc11-4b5b-9922-5075b10d3aac")
+		(uuid "ba54ebdf-d2f3-42ff-aac6-4bfaa36e0e3a")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b2ad1821-1d71-477e-885a-99d6a8c173d7")
+		(uuid "8ebcb521-d460-4abd-aba1-6bda82f4ce29")
 		(effects
 			(font
 				(size 1 1)
@@ -53,6 +53,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.85 -1.65)
 		(end -1.85 -1.05)
@@ -61,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d85a8585-5ecd-411c-b316-0d9a1a1aeef5")
+		(uuid "9ce3b471-d540-429a-a1f2-8ffea8efb16d")
 	)
 	(fp_line
 		(start -1.85 -1.05)
@@ -71,7 +72,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "00f8458b-447e-409c-a215-80264406ea50")
+		(uuid "a1da229e-6fd7-44fd-8658-56253030ce80")
 	)
 	(fp_line
 		(start -1.35 -1.35)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "eed2cde1-3215-4fe0-ab7c-745626dcb84d")
+		(uuid "6aab3b8a-61ab-4f91-aeea-28c78e20262d")
 	)
 	(fp_rect
 		(start -1.12 -1.88)
@@ -92,13 +93,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e44c9466-4cde-49ba-99ae-ac65d4123fce")
+		(uuid "e2af81e8-4ca5-49e2-a821-d69a67cf98bc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.2 5.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "367839b7-85b0-4944-ad67-e1fc96bc8a4d")
+		(uuid "bfb66314-2015-44b9-8107-52e105e2447e")
 		(effects
 			(font
 				(size 1 1)
@@ -110,30 +111,30 @@
 		(at -0.575 -1.33)
 		(size 0.7 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8b46daf9-337f-4ee2-9e97-6a5250c861e4")
+		(uuid "e39c4996-d007-42b4-9291-31dc60e0b557")
 	)
 	(pad "2" smd circle
 		(at -0.575 1.33)
 		(size 0.7 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "50bf4cc9-0c18-4926-83e3-a2f584b3d5e5")
+		(uuid "a259da6b-bea3-4b2d-a46c-830880cac807")
 	)
 	(pad "3" smd circle
 		(at 0.575 1.33)
 		(size 0.7 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c91190b5-2c33-4760-bd15-2b8024991bda")
+		(uuid "31d11821-aa4d-49dd-93a5-79a8872380b7")
 	)
 	(pad "4" smd circle
 		(at 0.575 -1.33)
 		(size 0.7 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ad7c4a1a-1cf9-4969-8a31-1bd630dd71c8")
+		(uuid "6264edad-3c73-4ecb-872c-53bae5fcc70d")
 	)
 	(embedded_fonts no)
-	(model "D:/Workspace/Hardware/Library/Common/3D/LMA3722T421-OA5.step"
+	(model "${ANDRE_3DMODEL_DIR}/LMA3722T421-OA5.step"
 		(offset
-			(xyz -1.5 -2 -0.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

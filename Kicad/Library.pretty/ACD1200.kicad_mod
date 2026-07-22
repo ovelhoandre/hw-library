@@ -1,0 +1,162 @@
+(footprint "ACD1200"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -13.97 -17.78 0)
+		(layer "F.SilkS")
+		(uuid "7fbd5ac3-90f8-4044-bb1d-978f4abf4194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ACD1200"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "68c1a393-d941-4703-899b-6871230384d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24587af2-a811-452a-904d-cdf4e56f496d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a727fe5e-2186-451c-b329-73ed373a5ce4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -16.5 -16.08)
+		(end 16.5 5.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f1d2a387-0c71-4354-a5e4-259b144a00a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6 -5.24 180)
+		(layer "F.Fab")
+		(uuid "38e68f6a-b79f-4e11-98ce-2ae6ff5a6546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -14.85 -7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c56141f-3860-43de-a7bd-2722277a9ea3")
+	)
+	(pad "2" thru_hole oval
+		(at -14.85 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9acdbd5d-f7c7-4226-b37c-9eb92ec19644")
+	)
+	(pad "3" thru_hole oval
+		(at -14.85 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6ead43d-22db-4601-b2ec-a5ec2d16db13")
+	)
+	(pad "4" thru_hole oval
+		(at -14.85 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f43cfc7f-a1f8-4e6b-b73e-c7b7af8d892e")
+	)
+	(pad "5" thru_hole oval
+		(at 14.85 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71d4468c-db63-42c6-9529-1e99d96bd8ba")
+	)
+	(pad "6" thru_hole oval
+		(at 14.85 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a5158d8-55c6-4337-b15b-489860b4d686")
+	)
+	(pad "7" thru_hole oval
+		(at 14.85 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea0b9c98-4a93-42f3-9b20-347e5fa9554c")
+	)
+	(pad "8" thru_hole oval
+		(at 14.85 -7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7dbb67d-cf10-4103-a91a-7d830d338d50")
+	)
+	(pad "9" thru_hole oval
+		(at 14.85 -10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e9fcea5-b911-4b40-bf56-7a97fbabd28a")
+	)
+	(model "${ANDRE_3DMODEL_DIR}/ACD1200.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(embedded_fonts no)
+)

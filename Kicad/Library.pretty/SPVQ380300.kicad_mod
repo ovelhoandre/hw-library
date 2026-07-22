@@ -1,0 +1,115 @@
+(footprint "SPVQ380300"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.572 -4.064 0)
+		(layer "F.SilkS")
+		(uuid "d4849fd3-a656-43af-9bd9-bb950be8453c")
+		(effects
+			(font
+				(size 1.002756 1.002756)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPVQ380300"
+		(at 0 4.064 0)
+		(layer "F.Fab")
+		(uuid "3a2c8b79-c096-46ea-af4c-5f27c8163f55")
+		(effects
+			(font
+				(size 1.002394 1.002394)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45a8e21-1004-46bd-87c7-874b6d9ede8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1d3b828-a5b6-4c5e-b216-b8126db6f8ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.5 -2.9)
+		(end 6.5 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5924a297-0192-48ca-8a41-adb305a62e27")
+	)
+	(fp_circle
+		(center 7.112 -2.54)
+		(end 7.212 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06298801-a28d-4602-94b4-2b34e239e40b")
+	)
+	(pad "1" thru_hole rect
+		(at 5 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0921b1b1-092c-48d4-883c-d07066f7049b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c6052bc2-289a-42fc-aa2a-f39907343409")
+	)
+	(pad "3" thru_hole circle
+		(at -5 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "49327cd6-5065-42ff-b7d3-10b4e53c6606")
+	)
+	(embedded_fonts no)
+	(model "/home/lopes/Workspace/Hardware/hw-library/Common/3D/SPVQ380300.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

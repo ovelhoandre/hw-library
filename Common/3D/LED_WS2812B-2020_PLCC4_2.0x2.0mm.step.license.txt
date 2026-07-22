@@ -1,0 +1,7 @@
+Model: WS2812-2020.step
+Local filename: LED_WS2812B-2020_PLCC4_2.0x2.0mm.step
+Source: SparkFun Electronics KiCad Libraries
+Source URL: https://github.com/sparkfun/SparkFun-KiCad-Libraries/blob/main/3dmodels/LED.3dshapes/WS2812-2020.step
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Downloaded: 2026-07-22

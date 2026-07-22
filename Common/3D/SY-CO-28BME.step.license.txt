@@ -1,0 +1,12 @@
+Model: SY-CO-28BME.step
+Component: Saiya Sensor SY-CO-28BME, JLCPCB/LCSC C22466762
+Source: Saiya Sensor SY-CO-28BME datasheet, mechanical information and product photograph
+Datasheet URL: https://atta.szlcsc.com/upload/public/pdf/source/20250326/65E2ECFB1FBC978AEBDC7DDCA8CEA4ED.pdf
+Product URL: https://www.lcsc.com/product-detail/C22466762.html
+Origin: Locally generated from published mechanical dimensions and photographs; no third-party CAD model was redistributed.
+Detail level: Medium; PCB, electrochemical can, supports, board components, header and pins. The can height is reconstructed proportionally because the datasheet does not specify it.
+Mounting datum: Header housing rests at Z=0 on the carrier PCB; the module PCB rests on the 2.54mm header housing.
+Module PCB: Manufacturer dimension 22.00mm x 16.00mm; the pin row is 1.33mm inboard so the PCB covers the full header housing.
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Generated: 2026-07-22

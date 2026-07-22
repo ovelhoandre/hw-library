@@ -1,0 +1,8 @@
+Model: Lite-On_LTR-303ALS-01.step
+Local filename: Lite-On_LTR-303ALS-01.step
+Source: Lite-On LTR-303ALS-01 datasheet, outline dimensions
+Source URL: https://cdn-shop.adafruit.com/product-files/5610/LTR-303ALS-01-Lite-On-datasheet-140480318.pdf
+Origin: Locally generated from published mechanical dimensions; no third-party CAD model was redistributed.
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Generated: 2026-07-22
